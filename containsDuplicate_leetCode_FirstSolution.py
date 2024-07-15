@@ -8,3 +8,4 @@ class Solution(object):
                 if(i!=j and nums[i]== nums[j]):
                     return True
         return False
+
