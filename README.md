@@ -1,4 +1,4 @@
-This repor is where I save my leet code solutions, I mainly store my first attempts which pass all the tests in leet code website, except for time/space complexity test.
+This repo is where I save my leet code solutions, I mainly store my first attempts which pass all the tests in leet code website, except for time/space complexity test.
 
 This because as it may need a more advanced knowleadge than what I currently have, and I believe the you should solve the problem first and optimize it later.
 
