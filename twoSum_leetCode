@@ -7,14 +7,14 @@ class Solution:
             return[]
 
         map = {}
-        
+
         for i, num in enumerate(nums):
             if(nums[i]> 10**9 or nums[i]< -10**9):
                 return []
-            diff = target - num
+            complement = target - num
 
-            if diff in map:
-                return [map[diff], i]
+            if complement in map:
+                return [map[complement], i]
             map[num] = i
                 
         return[]
