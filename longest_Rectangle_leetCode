@@ -1,0 +1,27 @@
+class Solution():
+	def longestRectangle(self, heights : list):
+
+		stack = []
+		maxArea = 0
+
+		for i, h in enumerate (heights):
+			start = i
+			while(stack and stack[-1][1] > h):
+				index, height = stack.pop()
+
+				start = index
+				maxArea =max(maxArea, height *(i -index))
+				start = index
+
+			stack.append((start, h))
+
+		for i, h in stack:
+			maxArea= max(maxArea, h*(len(stack) - i))	
+
+
+		return maxArea
+
+
+x = Solution()
+
+print(x.longestRectangle([1,2,3,4]))
