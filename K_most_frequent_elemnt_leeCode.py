@@ -17,8 +17,6 @@ class Solution:
 			sol.append(newKey)
 	
 		return sol
-
-		
 # Explanation
 # First, using a loop I put every unique elements in a hash map as a Key
 # then I count how many times the element shows up and put the count

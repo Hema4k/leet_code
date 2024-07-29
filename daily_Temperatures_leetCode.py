@@ -21,6 +21,9 @@ class Solution():
 # in case the new value is bigger than the top of the stack
 # we substract the index of the new value in temperatures from the index
 # of the value which is stored in the stack 
+# meaning ( i - stack [-1, 1]  )
+# I put it in a while instead of if to continuosly chich if the new stack top
+# after the pop is still smaller the the currenct Temperatures[i]
 
 
 
