@@ -19,5 +19,3 @@ class Solution:
         return True
 
 
-x = Solution()
-print(x.isPalindrome("Abccba"))
